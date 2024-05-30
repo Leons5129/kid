@@ -36,7 +36,7 @@ def attack(ip, port, time, size):
     if port is not None:
         port = max(1, min(65535, port))
     print(Fore.LIGHTMAGENTA_EX + ui)
-    print(Fore.LIGHTMAGENTA_EX"Attacked By WizzSec")
+    print(Fore.LIGHTMAGENTA_EX+"Attacked By WizzSec")
     fmt = Fore.LIGHTMAGENTA_EX+'OBFCUTE ATTACK TO {ip} {port}'.format(
         ip=ip,
         port='port {port}'.format(port=port) if port else 'random ports'
